@@ -199,6 +199,19 @@ img {
 	font-size: inherit;
 }
 
+#mc_embed_signup .mc-field-group input {
+	padding: 12px 0;
+}
+
+#mc_embed_signup div#mce-responses {
+	margin: 0;
+}
+
+#mc_embed_signup #mce-success-response,
+#mc_embed_signup #mce-error-response {
+	color: #fff;
+}
+
 .button {
 	background-color: var(--secondary-color);
 	clear: both;
