@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169179571-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-169179571-1');
+	</script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 	<!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
@@ -8,6 +17,10 @@
 	<link rel="stylesheet" href="styles.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 	<title>TeeRead</title>
 </head>
 <body>
@@ -18,9 +31,9 @@
 			<div class="row center-xs start-md middle-md">
 				<div class="col-md-6 col-sm-12">
 					<img class="hero__logo" src="img/logo-color.png" alt="">
-					<h1 class="hero__title">Assess fluency. Automatically</h1>
+					<h1 class="hero__title">Assess fluency. Automatically.</h1>
 					<h2>Get on the waitlist to try the first 5-minute automated fluency assessment</h2>
-					<a href="#subscribe" class="button">Subscribe!</a>
+					<a href="#subscribe" class="button">Join the waitlist</a>
 				</div>
 				<div class="col-md-5 col-md-offset-1 col-xs-12 end-md">
 					<div class="video-container">
@@ -43,7 +56,7 @@
 						<img src="img/ft-1.svg" alt="">
 					</div>
 					<h5 class="ft-badge__title">Sign up</h5>
-					<p class="ft-badge__desc">Integrate in seconds with Google Classroom</p>
+					<p class="ft-badge__desc">Integrate with Google Classroom in seconds.</p>
 				</div>
 			</div>
 			
@@ -53,8 +66,8 @@
 					<div class="ft-badge__img">
 						<img src="img/ft-2.svg" alt="">
 					</div>
-					<h5 class="ft-badge__title">Assess automatically </h5>
-					<p class="ft-badge__desc">Student reads a short leveled passage to a device</p>
+					<h5 class="ft-badge__title">Assess automatically</h5>
+					<p class="ft-badge__desc">Your student reads a short leveled passage.</p>
 				</div>
 			</div>
 
@@ -65,7 +78,7 @@
 						<img src="img/ft-3.svg" alt="">
 					</div>
 					<h5 class="ft-badge__title">See report</h5>
-					<p class="ft-badge__desc">You receive an actionable fluency report</p>
+					<p class="ft-badge__desc">You receive a personalized fluency report for each student</p>
 				</div>
 			</div>
 
@@ -75,8 +88,8 @@
 					<div class="ft-badge__img">
 						<img src="img/ft-4.svg" alt="">
 					</div>
-					<h5 class="ft-badge__title">Leveled Assessment</h5>
-					<p class="ft-badge__desc">Here goes the description</p>
+					<h5 class="ft-badge__title">Get leveled reading</h5>
+					<p class="ft-badge__desc">Once assessed, your student gets access to a library of leveled stories</p>
 				</div>
 			</div>
 
@@ -84,17 +97,18 @@
 	</section>
 
 	<!-- Phone & description 1  -->
-	<section class="container description-2">
+	<section class="container description-1">
 		<div class="row middle-md center-xs">
 			<div class="col-md-4 col-md-offset-1 col-xs-11 last">
-				<h3>Know your students reading level. Always.</h3>
+				<h3>Know your student's reading level. Always.</h3>
 				<p>
 					In just 5 minutes you can know your students key reading metrics:
-
-					- Grade Reading Level
-					- Lexile 
-					- Words Correct per Minute
 				</p>
+				<ul>
+					<li>Grade Reading Level</li>
+					<li>Lexile </li>
+					<li>Words Correct per Minute</li>
+				</ul>
 			</div>
 			<div class="col-md-7 center-md first">
 				<img class="hero__mockup" src="img/phone-wbg.png" alt="">
@@ -110,11 +124,11 @@
 				<img class="hero__mockup" src="img/phone-2-wbg.png" alt="">
 			</div>
 			<div class="col-md-4 col-xs-11">
-				<h3>Get books at your level. Always.</h3>
+				<h3>Your students get books at their level. Always.</h3>
 				<p>
 					After each assessment, your students gain
 					access to a leveled reading library so they can 
-					continuously grow
+					continuously grow their love for reading.
 				</p>
 			</div>
 		</div>
@@ -124,7 +138,7 @@
 	<section id="subscribe" class="container fluid footer">
 		<div class="row center-sm">
 			<div class="col-xs-12">
-				<h3>Suscribe and be the first to find out!</h3>
+				<h3>Sign Up and be the first to try TeeRead!</h3>
 			</div>
 		</div>
 		<div class="row center-sm">
@@ -159,7 +173,7 @@
 								<input type="text" name="b_e3be2f84ce84baafe79715602_d62dc9aa78" tabindex="-1" value="">
 							</div>
 							<div class="clear center-md">
-								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+								<input type="submit" value="Join the waitlist!" name="subscribe" id="mc-embedded-subscribe" class="button">
 							</div>
 						</div>
 					</form>

@@ -167,14 +167,45 @@ img {
 	/* transform: rotate(-8deg) translateX(130px);; */
 }
 
-.description-2 {
+.description-1 {
 	padding-bottom: 120px;
+}
+
+.description-1 ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+
+.description-1 li:before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	background-color: var(--main-color);
+	display: inline-block;
+	border-radius: 130px;
+	margin-right: 10px;
+	margin-bottom: 2px;
+	position: relative;
+}
+
+.description-1 li:after {
+	content: '';
+	width: 5px;
+	height: 5px;
+	background-color: var(--main-color);
+	display: inline-block;
+	border-radius: 130px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+	position: relative;
 }
 
 .footer {
 	background-color: #40D78F;
 	color: #fff;
 }
+
 
 /* Form */
 
